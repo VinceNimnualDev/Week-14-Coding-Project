@@ -35,6 +35,7 @@ const Movie = ({data}) => {
             {/* Using ReviewList compont to display list of reviews */}
             <ReviewList reviews={movieData.reviews} />
             {/* Using ReviewForm componet to submit a new review */}
+            <ReviewForm submitReview={submitReview} />
         </div>
     );
 };
